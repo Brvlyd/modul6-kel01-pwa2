@@ -1,0 +1,36 @@
+.modal-content {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.modal-info {
+    width: 100%;
+    text-align: center;
+}
+
+.modal-info h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.modal-info p {
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.modal img {
+    max-width: 250px;
+    max-height: 350px;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .modal img {
+        max-width: 200px;
+        max-height: 300px;
+    }
+}
